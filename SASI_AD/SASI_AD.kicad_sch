@@ -1,0 +1,90 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b9a44b9a-a5bc-4a62-a606-a97ed7c48488)
+
+  (paper "A4")
+
+  (title_block
+    (title "Iskra Delta Partner SASI Adapter 046 700 134")
+    (date "2023-08-23")
+    (rev "1")
+    (company "Jernej Jakob <jernej.jakob@gmail.com>")
+    (comment 1 "reverse engineered by hand")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 40.64 55.88) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5006dc5b-e011-4547-b444-9b62ead495c5)
+    (property "Sheetname" "Control" (at 40.64 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "control.kicad_sch" (at 40.64 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SASI_AD"
+        (path "/b9a44b9a-a5bc-4a62-a606-a97ed7c48488" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 64.77) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5386c750-dcba-4816-8d03-1bf85170743b)
+    (property "Sheetname" "Powers" (at 40.64 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "powers.kicad_sch" (at 40.64 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SASI_AD"
+        (path "/b9a44b9a-a5bc-4a62-a606-a97ed7c48488" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 38.1) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 785815dc-cedf-4e59-85e1-0c8a8f0e1921)
+    (property "Sheetname" "BUS" (at 40.64 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BUS.kicad_sch" (at 40.64 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SASI_AD"
+        (path "/b9a44b9a-a5bc-4a62-a606-a97ed7c48488" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 46.99) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d5fa1d17-16f4-4401-849f-785865ab1909)
+    (property "Sheetname" "SASI" (at 40.64 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SASI.kicad_sch" (at 40.64 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SASI_AD"
+        (path "/b9a44b9a-a5bc-4a62-a606-a97ed7c48488" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
